@@ -41,7 +41,7 @@ To run this script, some configuration in the script will be needed. Please chan
 
 ## Usage
 
-### Code block
+###
     usage: shelly_api_get.py [-h] ip {temp} {1,1PM,1L,2.5}
 
     positional arguments:
