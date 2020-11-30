@@ -1,7 +1,7 @@
 # shelly_api_get.py
 Poll Shelly Relays and write Data to INFLUX Database
 
-*Currently the script is only fetching the TEMPERATURE data from the Relays. Only the following models if Shelly are supported*:
+*Currently the script is only fetching the TEMPERATURE data from the Relays. Only the following models if Shelly are supported:*
 - Shelly 1
 - Shelly 1L
 - Shelly 1PM
@@ -29,15 +29,15 @@ You can you the command: python3 -m pip install <module> to install the modules
 To run this script, some configuration in the script will be needed. Please change the following, found in the script "Global Variables" and "InfluxDB Configuration":
 
 - Global Variables
-    - shellyUsername="<CHANGE>" -> Username to log into the Shelly Web Interface
-    - shellyPassword="<CAHNGE>" -> Password to log into the Shelly Web Interface
+    - shellyUsername="CHANGE" -> Username to log into the Shelly Web Interface
+    - shellyPassword="CHANGE" -> Password to log into the Shelly Web Interface
 
 - InfluxDB Configuration
-    - databaseHost = "<CHANGE>" -> Hostname where your InfluxDB is Running
-    - databasePort = "<CHANGE>" -> Port for communication, Typically 8086
-    - databaseDatabase = "<CHANGE>" -> Database name to write to
-    - databaseUsername = "<CHANGE>" -> Username for the Database
-    - databasePassword = "<CHANGE>" -> Password for the Database
+    - databaseHost = "CHANGE" -> Hostname where your InfluxDB is Running
+    - databasePort = "CHANGE" -> Port for communication, Typically 8086
+    - databaseDatabase = "CHANGE" -> Database name to write to
+    - databaseUsername = "CHANGE" -> Username for the Database
+    - databasePassword = "CHANGE" -> Password for the Database
 
 ## Usage
 
