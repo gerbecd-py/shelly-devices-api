@@ -22,7 +22,9 @@ The following Python3 Modules need to be installed (either locally or system wid
 - influxdb
 - argparse
 
-You can you the command: python3 -m pip install <module> to install the modules
+You can you the command:
+###
+    python3 -m pip install <module> to install the modules
 
 ## Some configuration is required
 
