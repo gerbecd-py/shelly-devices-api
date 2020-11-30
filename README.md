@@ -1,5 +1,5 @@
 # shelly_api_get.py
-Poll Shelly Relays and write Data to INFLUX Database
+Poll Shelly Relays and write Data to INFLUX Database for further use with i.e. *Grafana* as in my case.
 
 *Currently the script is only fetching the TEMPERATURE data from the Relays. Only the following models if Shelly are supported:*
 - Shelly 1
@@ -7,11 +7,10 @@ Poll Shelly Relays and write Data to INFLUX Database
 - Shelly 1PM
 - Shelly 2.5
 
-## Prerequisits
+## Prerequisites
 - Running INFLUX Database
-- Running Grafana, connected to the INFLUX database
 
-Search documentation for INFLUX and Grafana setup options on their respective websites.
+Search documentation for INFLUX setup options on their respective websites.
 
 ## Required Python3 Modules
 The following Python3 Modules need to be installed (either locally or system wide):
@@ -24,7 +23,7 @@ The following Python3 Modules need to be installed (either locally or system wid
 
 You can you the command:
 ###
-    python3 -m pip install <module> to install the modules
+    python3 -m pip install <module>
 
 ## Some configuration is required
 
