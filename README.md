@@ -53,14 +53,14 @@ To run this script, some configuration in the script will be needed. Please chan
       -h, --help      show this help message and exit
 
 ## Example
-### Code block
+###
     user@server:~ $ python3 shell_api_get.py 10.0.5.170 temp 1L
 
 ## Automate polling
 
 If you wish to automate the polling, you could use crontab. Example crontab entry:
 
-### Code block
+###
     * * * * * /usr/bin/python3 /home/user/python/test/shelly_api_get.py 10.0.5.170 temp 1L
 
 This entry will run the script each minute and write the data to InfluxDB
