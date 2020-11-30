@@ -71,7 +71,6 @@ contents = getAPIResult()
 if dataType == "temp":
     dataBody = {}
     dataBody['time'] = datetime.now(timezone('Europe/Vienna'))
-
     dataBody['measurement'] = "Shelly %s, %s" % (shellyType, shellyIP)
     dataBody['tags'] = { 'sensor': 'temperature' }
     dataBody['fields'] = { 'value': contents['temperature'] }
