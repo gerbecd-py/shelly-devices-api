@@ -34,9 +34,7 @@ databasePassword = "CHANGE"
 
 def connectToDatabase():
 
-    """
-    Function to initiate Database Connection
-    """
+    """Function to initiate Database Connection"""
 
     # Database Connection: (influxdb)
     influxClient = InfluxDBClient(
