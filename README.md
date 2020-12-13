@@ -2,7 +2,6 @@
 Poll Shelly Relays and write Data to INFLUX Database for further use with i.e. *Grafana* as in my case.
 
 *Currently the script is only fetching the TEMPERATURE data from the Relays. Only the following models if Shelly are supported:*
-- Shelly 1
 - Shelly 1L
 - Shelly 1PM
 - Shelly 2.5
@@ -43,12 +42,12 @@ To run this script, some configuration in the script will be needed. Please chan
 ## Usage
 
 ###
-    usage: shelly_api_get.py [-h] ip {temp} {1,1PM,1L,2.5}
+    usage: shelly_api_get.py [-h] ip {temp} {1PM,1L,2.5}
 
     positional arguments:
       ip              Shelly IP Address
       {temp}          What data to poll (currently only relay temperature is available)
-      {1,1PM,1L,2.5}  Currently Supported Shelly Devices
+      {1PM,1L,2.5}  Currently Supported Shelly Devices
 
     optional arguments:
       -h, --help      show this help message and exit

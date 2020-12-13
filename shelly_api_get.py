@@ -10,12 +10,12 @@ Query Shelly Devices and retrive status information.
 
 """
 
-___version___ = 0.1
+___version___ = 0.2
 
 config = argparse.ArgumentParser()
 config.add_argument("ip", help="Shelly IP Address", type=str)
 config.add_argument("data", help="What data to poll (currently only relay temperature is available)", type=str, choices=["temp"])
-config.add_argument("shelly", help="Currently Supported Shelly Devices", type=str, choices=["1","1PM","1L","2.5"])
+config.add_argument("shelly", help="Currently Supported Shelly Devices", type=str, choices=["1PM","1L","2.5"])
 configValues = config.parse_args()
 
 # Global Variables
